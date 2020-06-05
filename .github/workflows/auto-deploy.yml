@@ -32,4 +32,4 @@ jobs:
       
     # Runs a set of commands using the runners shell
     - name: Deploying using surge
-      run: surge -/ bootcamp2020-a1.surge.sh --token $ {{ secrets.TOKEN }}
+      run: surge ./ bootcamp2020-a1.surge.sh --token ${{ secrets.TOKEN }}
